@@ -1,0 +1,19 @@
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    display: flexbox;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.media-query {
+    color: tan;
+}
+  
+@media screen and (min-width: 992px) {
+    .media-query {
+        color: blue;
+    }
+}
